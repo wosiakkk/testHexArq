@@ -10,7 +10,7 @@ import port.driven.IssRepository;
 @Repository
 public class IssRepositoryImpl implements IssRepository{
 
-	//salvando em runtime para simular DB.
+	//salvando em runtime para simular DB .
 	private Map<Integer, ISS> issStore = new HashMap<Integer, ISS>();
 	
 	@Override
