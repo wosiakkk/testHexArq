@@ -8,6 +8,6 @@ public interface IssRepository {
 	public void createIss(ISS iss);
 	public void updateIss(ISS iss);
 	public ISS getIss(int id);
-	public List<ISS> getAllISS();
+	public List<ISS> getAllIss();
 	public void deleteIss(int id);
 }

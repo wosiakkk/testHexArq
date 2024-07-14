@@ -31,7 +31,7 @@ public class IssRepositoryImpl implements IssRepository{
 	}
 
 	@Override
-	public List<ISS> getAllISS() {
+	public List<ISS> getAllIss() {
 		return issStore.values().stream().collect(Collectors.toList());
 	}
 

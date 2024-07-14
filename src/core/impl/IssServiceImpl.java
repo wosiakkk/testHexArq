@@ -23,12 +23,12 @@ public class IssServiceImpl implements IssService{
 
 	@Override
 	public ISS getIss(int id) {
-		return issRepository.getPizza(id);
+		return issRepository.getIss(id);
 	}
 
 	@Override
 	public List<ISS> getAllIss() {
-		return issRepository.getAllISS();
+		return issRepository.getAllIss();
 	}
 
 	@Override
