@@ -26,7 +26,7 @@ public class IssRepositoryImpl implements IssRepository{
 	}
 
 	@Override
-	public ISS getPizza(int id) {
+	public ISS getIss(int id) {
 		return issStore.get(id);
 	}
 
